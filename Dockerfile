@@ -11,6 +11,8 @@ ENV RAILS_ENV production
 
 ENV PGBOUNCER_DATABASE_URL postgresql://user:pass@127.0.0.1/dbname
 
+ENV SECRET_KEY_BASE f9h8q3hf493qhf943qh
+
 RUN mkdir -p $INSTALL_PATH
 
 WORKDIR $INSTALL_PATH
